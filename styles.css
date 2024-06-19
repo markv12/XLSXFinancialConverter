@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    //background-color: #f4f4f4;
+    background: linear-gradient(180deg, #ffffff, #adc7ae);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+h1 {
+    margin: 45px 0 20px 0;
+    font-weight: 700;
+    color: #4CAF50;
+}
+
+#fileInput {
+    padding: 10px;
+    border: 2px dashed #4CAF50;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#fileInput:hover {
+    background-color: #f9f9f9;
+}
+
+#convertButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#convertButton:hover {
+    background-color: #45a049;
+}
